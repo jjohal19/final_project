@@ -1,0 +1,23 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "1. This is an app to keep record of things to be done by a person. 2. A person can sign up with a unigue id. Then, the person can login with that unique id and password.  3. There are four sections: Grocery , Movies, Assignments and Others. 4. The person can add the things to be done for the respective section. 5. If the person wants to update the the thing to some another item then he can use the update button. 6. The item added can be deleted if it is already done. 7. The account can be logged out but the data will be there when it is logged in again.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "surge": "^0.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "keywords": []
+}

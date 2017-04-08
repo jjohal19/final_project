@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #555;
+  margin:auto;
+  margin-top: 50px;
+  width:96%;
+  max-width: 1400px;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+ol li:nth-child(odd) {
+  background: rgba(205, 220, 57, 0.74);
+}
+
+li {
+  cursor: pointer;
+}
+div{
+  margin: 2rem;
+  margin-left: 0;
+}
+ul {
+  list-style-type: none;
+}
+
+input, button {
+  outline: none;
+}
+
+button {
+  background: #8BC34A;
+  color: white;
+  border: 0px;
+  font-size: 16px;
+  margin: 13px 0;
+  cursor: pointer;
+  padding: 5px 9px;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+}
+button:hover {
+  background: #4CAF50;
+}
+
+input {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  color: #888;
+  display: block;
+}
+
+input[type="text"]:focus {
+  color: #333;
+}
+
+.no{
+  display: none;
+}
+.show{
+  display: block;
+
+}
+a{
+  cursor: pointer;
+}
+
+.box1{
+  display: flex;
+  flex-drection:row;
+}
+
+.box{
+  width: 25%;
+}
+
+#todoDiv{
+  padding-left: 0;
+  padding-right: 10rem;
+}
+
+.hidden{
+  display: none;
+}
+
+ol{
+  list-style: none;
+  padding-left: 0;
+}
+
+ol li{
+  padding-left: 10px;
+  background: rgba(128, 128, 128, 0.18);
+}
+
+ol li button{
+  margin-left: 15px;
+  background: #bd3127;
+}
+
+ol li button:hover{
+  background: #dc1d0f;
+}
+
+.box a{
+  display: block;
+  padding: 9px 4px;
+  color: white;
+  background: #FFC107;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.after-login {
+  display:none;
+}
+
+.before-login span {
+  display:block;
+  margin-bottom:3px;
+}
+
+.before-login input {
+  margin-bottom:10px;
+}
+
+.before-login .submit {
+ background: gray;
+ width: 5rem;
+ color: white;
+ margin-top: 1rem;
+ display: inline-block;
+ text-align: center;
+ padding: 5px 0px;
+ transition: all 0.5s ease-in-out;
+ cursor:pointer;
+}
+
+.before-login .submit:hover {
+  background:black;
+}
+
+.sign, .shownotilogin {
+  margin-top:2rem;
+}
+
+.logout-div {
+  margin-top:1rem;margin-bottom:1rem;
+  text-align:right;
+}
+
+.logout-div span {
+  background: #f32c2c;
+  padding: 5px 5px;
+  color: white;
+  cursor: pointer;
+}
+
+#todoList li input {
+  display:inline-block;
+  margin-left:5px;
+  margin-right:5px;
+}

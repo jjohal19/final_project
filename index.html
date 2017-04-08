@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>todo list app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ToDo Manager</h1>
+
+  <div class="before-login">
+    <div class="sign_up">
+      <h2>Sign Up</h2>
+      <span>Name</span>
+      <input type="text" id="s_name" name="name"/>
+      <span>Email</span>
+      <input type="email" id="s_email" name="email"/>
+      <span>Password</span>
+      <input type="password" id="s_password" name="password"/>
+      <span class="submit" onclick="signup();">Sign Up</span> or <span class="submit" onclick="showlogin();">Sign In</span>
+      <div id="sign"></div>
+    </div>
+
+    <div class="login" style="display:none;">
+      <h2>Sign In</h2>
+      <span>Email</span>
+      <input type="email" id="l_email" name="email"/>
+      <span>Password</span>
+      <input type="password" id="l_password" name="password"/>
+      <span class="submit" onclick="login();">Sign In</span> or <span class="submit" onclick="showsignup();">Sign Up</span>
+      <div id="shownotilogin"></div>
+    </div>
+  </div>
+
+
+  <div class="after-login">
+   <div class="logout-div"> <span onclick="logout();">Logout</span></div>
+   <div class="box1">
+    
+    <div class="box"> 
+     <a id ="gr">Grocery</a>
+     <div id='grocery' class="no">
+      <label for="add todo">Add items to Grocery</label>
+      <input type="text" id="inputGrocery">
+      <button id="addTodo" onclick="addGrocery()">Add</button>
+    </div>
+  </div>
+  
+  <div class="box"> 
+   <a id ="gr2">Movies To Watch</a>
+   <div id='grocery2' class="no">
+    <label for="add todo">Add Movie</label>
+    <input type="text" id="inputMovie">
+    <button id="addTodo" onclick="addMovie()">Add</button>
+  </div>
+</div>
+
+<div class="box">
+ <a id ="gr3">Assignments To Do</a>
+ <div id='grocery3' class="no">
+   <label for="add todo">Add Assignment</label>
+   <input type="text" id="inputAssign">
+   <button id="addTodo" onclick="addAssignment()">Add</button>
+ </div>
+</div>
+
+<div class="box">
+ <a id ="gr4">Others</a>
+ <div id='grocery4' class="no">
+   <label for="add todo">Add others</label>
+   <input type="text" id="inputOthers">
+   <button id="addTodo" onclick="addOthers()">Add</button>
+ </div>
+</div>
+</div>
+<div id="listDiv">
+
+  <a id="listname"></a>
+  <div id="todoDiv">
+    <ol id="todoList">
+    </ol>
+  </div>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
